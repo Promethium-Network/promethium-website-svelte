@@ -3,8 +3,6 @@
 	import {
 		Button,
 		DarkMode,
-		GradientButton,
-		Input,
 		NavBrand,
 		NavHamburger,
 		NavLi,
@@ -12,8 +10,6 @@
 		Navbar,
 		Tooltip,
 	} from 'flowbite-svelte';
-
-	import { Icon } from 'flowbite-svelte-icons';
 
 	const handleClick = () => {
 		navigator.clipboard.writeText('play.promethium-network.net');
