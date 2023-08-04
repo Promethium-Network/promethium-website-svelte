@@ -9,10 +9,12 @@
 		NavUl,
 		Navbar,
 		Tooltip,
+		GradientButton
 	} from 'flowbite-svelte';
 
 	const handleClick = () => {
 		navigator.clipboard.writeText('play.promethium-network.net');
+		console.log('TEST CLICK');
 	};
 </script>
 
@@ -26,16 +28,15 @@
 		</span>
 	</NavBrand>
 	<div class="flex md:order-2">
-		<Button
+		<GradientButton
 			class="mr-3"
 			size="sm"
 			on:click={handleClick}
-			color="purple"
-			outline
+			color="purpleToPink"
 			id="copyclip"
 		>
 			play.promethium-network.net
-		</Button>
+		</GradientButton>
 		<Tooltip
 			placement="bottom"
 			arrow={false}
