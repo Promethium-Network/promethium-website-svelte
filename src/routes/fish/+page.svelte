@@ -4,5 +4,7 @@
 </script>
 
 <main>
-    <Video src={Fish} autoplay volume={100} trackSrc="fish.mp4" loop controls/>
+    <center>
+        <Video src={Fish} autoplay volume={100} trackSrc="fish.mp4" loop controls/>
+    </center>
 </main>
