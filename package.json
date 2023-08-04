@@ -27,6 +27,8 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "^1.5.1",
+    "@sentry/sveltekit": "^7.61.0",
+    "@sentry/vite-plugin": "^2.5.0",
     "flowbite": "^1.8.1",
     "flowbite-svelte": "^0.40.2",
     "flowbite-svelte-icons": "^0.3.3",
