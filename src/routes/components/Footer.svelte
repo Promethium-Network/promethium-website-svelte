@@ -50,7 +50,7 @@
 					>
 					<FooterLink
 						liClass="mb-4"
-						href="/"
+						href="https://patreon.com/PromethiumMinecraft"
 						target="#blank">Patreon</FooterLink
 					>
 					<FooterLink
@@ -107,7 +107,7 @@
 			<FooterIcon
 				class="text-gray-400 hover:text-gray-900"
 				target="#blank"
-				href="/"
+				href="https://patreon.com/PromethiumMinecraft"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
