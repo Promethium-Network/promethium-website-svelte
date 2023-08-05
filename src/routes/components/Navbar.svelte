@@ -14,7 +14,6 @@
 
 	const handleClick = () => {
 		navigator.clipboard.writeText('play.promethium-network.net');
-		console.log('TEST CLICK');
 	};
 </script>
 
