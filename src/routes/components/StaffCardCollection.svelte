@@ -15,6 +15,7 @@
 		>
 			Staff
 		</h1>
+		<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 	</div>
 
 	<div class="container mx-auto py-10">
@@ -23,21 +24,36 @@
 		{:then data}
 			<div class="flex justify-between justify-items-center">
 				<StaffCard
-					name={data.items[1].name}
-					role={data.items[1].role}
-					bio={data.items[1].bio}
-					profilePicUrl={data.items[1].profile_pic_url}
+					name={data.items[2].name}
+					role={data.items[2].role}
+					bio={data.items[2].bio}
+					profilePicUrl={data.items[2].profile_pic_url}
+					color="red"
 				/>
 				<StaffCard
 					name={data.items[0].name}
 					role={data.items[0].role}
 					bio={data.items[0].bio}
 					profilePicUrl={data.items[0].profile_pic_url}
+					color="red"
+				/>
+			</div>
+			<hr
+				class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+			/>
+			<div class="flex justify-between justify-items-center">
+				<StaffCard
+					name={data.items[1].name}
+					role={data.items[1].role}
+					bio={data.items[1].bio}
+					profilePicUrl=""
+					color="blue"
 				/>
 			</div>
 		{:catch error}
+			<h1>We are sorry, but an error has occured. Please try again later.</h1>
 			{console.log(error)}
-			{alert('ERROR PLEASE CONTACT GUS')}
+			{alert(error.message)}
 		{/await}
 	</div>
 </div>

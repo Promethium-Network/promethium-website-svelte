@@ -1,7 +1,6 @@
 <script>
 	import Logo from '$lib/images/logo.png';
 	import {
-		Button,
 		DarkMode,
 		NavBrand,
 		NavHamburger,

@@ -1,5 +1,5 @@
 <script>
-    import StaffCardCollection from '../components/StaffCardCollection.svelte';
+	import StaffCardCollection from '../components/StaffCardCollection.svelte';
 </script>
 
 <svelte:head>
